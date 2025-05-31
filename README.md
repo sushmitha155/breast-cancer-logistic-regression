@@ -48,14 +48,31 @@ ROC-AUC score showed excellent separability
 
 Sigmoid curve illustrated probability estimation from raw scores
 
-📷 Screenshots (if any)
+📷 Screenshots 
 Include plots of:
 
-ROC Curve
+ROC Curve: ![image](https://github.com/user-attachments/assets/ef3dd67f-c87a-4527-84c8-73dda5f0fabb)
 
-Confusion Matrix
 
-Sigmoid function (optional)
+Confusion Matrix: Confusion Matrix:
+ [[70  1]
+ [ 2 41]]
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.97      0.99      0.98        71
+           1       0.98      0.95      0.96        43
+
+    accuracy                           0.97       114
+   macro avg       0.97      0.97      0.97       114
+weighted avg       0.97      0.97      0.97       114
+
+
+ROC AUC Score: 0.99737962659679
+
+Sigmoid function : ![image](https://github.com/user-attachments/assets/146513d8-fa18-49f7-b592-aa774d6bb33e)
+
 
 📁 Files Included
 logistic_regression.ipynb – Jupyter Notebook with all code and output
